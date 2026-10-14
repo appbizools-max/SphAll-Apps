@@ -1,0 +1,72 @@
+node_modules/
+dist/
+build/
+.expo/
+.next/
+*.log
+.env
+.env.local
+.DS_Store
+
+.gradle/
+android/.gradle/
+mobile/android/.gradle/
+*.jks
+*.p8
+
+
+# Dependencies and build output
+node_modules/
+**/node_modules/
+.expo/
+**/.gradle/
+dist/
+build/
+coverage/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.p8
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+serviceAccountKey.json
+service-account*.json
+
+# Logs and local OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Local diagnostic output
+**/scratch/logcat*
+**/scratch/pid*.txt
+**/scratch/window_dump.xml
+
+# Local diagnostic output
+**/scratch/logcat*
+**/scratch/pid*.txt
+**/scratch/window_dump.xml
+
+# Android generated build output and caches
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/.cxx/
+**/android/local.properties
+
+# Expo / native generated output
+**/android/.kotlin/
+
+# Ignore all generated Android build folders
+**/android/.gradle/**
+**/android/build/**
+**/android/app/build/**
+**/android/.cxx/**
+**/android/.kotlin/**
+**/android/local.properties
